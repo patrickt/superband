@@ -308,6 +308,58 @@ void testRatioTwoBlockPath(double sr) {
     std::printf("%s\n", msg);
 }
 
+void testParameterAutomation(double sr) {
+    std::printf("\n== parameter automation (sample rate %.0f) ==\n", sr);
+    const std::size_t frames = (std::size_t)(sr * 1.0);
+    std::vector<float> in = sine(sr, 440.0, frames, 0.5);
+    std::vector<float> chunk(64);
+
+    superband::Core core(sr, 64, 1.0, 1.0);
+    std::vector<float> out;
+    std::size_t pos = 0;
+    bool ok = true;
+    int step = 0;
+    while (pos < in.size()) {
+        const std::size_t n = std::min<std::size_t>(64, in.size() - pos);
+        // Move the controls while audio is flowing, the way a .kr signal would.
+        if (step % 40 == 0) {
+            const double ratio = 1.0 + 0.25 * (double)((step / 40) % 4);
+            const double pitch = 1.0 + 0.125 * (double)((step / 40) % 3);
+            core.setRatio(ratio);
+            core.setPitch(pitch);
+        }
+        ++step;
+        while (core.writeInput(in.data() + pos, n) == 0) {
+            std::size_t got;
+            while ((got = core.readOutput(chunk.data(), chunk.size())) > 0) {
+                out.insert(out.end(), chunk.begin(), chunk.begin() + (long)got);
+                ok = ok && finite(chunk);
+            }
+        }
+        pos += n;
+        std::size_t got;
+        while ((got = core.readOutput(chunk.data(), chunk.size())) > 0) {
+            out.insert(out.end(), chunk.begin(), chunk.begin() + (long)got);
+            ok = ok && finite(chunk);
+        }
+    }
+    core.finish();
+    check(ok, "output stays finite while ratio and pitch move during the stream");
+    check(peak(out) < 2.0, "no runaway gain during automation");
+
+    // The reported latency must follow the stretcher's own figure for the
+    // settings it ends up at.
+    RubberBand::RubberBandStretcher probe((std::size_t)std::lround(sr), 1,
+                                          RubberBand::RubberBandStretcher::OptionProcessRealTime,
+                                          core.ratio(), core.pitch());
+    check(core.latency() == (double)probe.getStartDelay(),
+          "reported latency tracks the current ratio/pitch");
+    char msg[160];
+    std::snprintf(msg, sizeof msg, "  final ratio %.3f pitch %.3f, latency %.0f frames", core.ratio(),
+                  core.pitch(), core.latency());
+    std::printf("%s\n", msg);
+}
+
 void testBlockSizes(double sr) {
     std::printf("\n== block sizes (sample rate %.0f) ==\n", sr);
     for (int block : {1, 16, 64, 512}) {
@@ -338,6 +390,7 @@ int main() {
         testResetBehaviour(sr);
         testSteadyState(sr);
         testRatioTwoBlockPath(sr);
+        testParameterAutomation(sr);
         testBlockSizes(sr);
     }
 
