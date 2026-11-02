@@ -1,0 +1,1929 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 27.2.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/pkg/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/gmake"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/gmake"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/gmake"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/gmake"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/gmake"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/gmake"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/gmake"
+      - "/Users/patrick/.opam/default/bin/gmake"
+      - "/Users/patrick/.cabal/bin/gmake"
+    found: "/opt/homebrew/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/local/bin/c++"
+      - "/System/Cryptexes/App/usr/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: multiple errors: tapi error: malformed file
+      /Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libSystem.B.tbd:4:20: error: unknown architecture
+                         arm64e.x1-macos, arm64e.x1-maccatalyst ]
+                         ^~~~~~~~~~~~~~~
+       in '/Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libSystem.B.tbd'; tapi error: malformed file
+      /Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libc++.1.tbd:4:54: error: unknown architecture
+                         arm64e-macos, arm64e-maccatalyst, arm64e.x1-macos, arm64e.x1-maccatalyst ]
+                                                           ^~~~~~~~~~~~~~~
+       in '/Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libc++.1.tbd'
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/patrick/workspace/superband/build/CMakeFiles/4.4.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:323 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 433 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/pkg/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/objcopy"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/objcopy"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/objcopy"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/objcopy"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/objcopy"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/objcopy"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/objcopy"
+      - "/Users/patrick/.opam/default/bin/objcopy"
+      - "/Users/patrick/.cabal/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/Users/patrick/.cargo/bin/objcopy"
+      - "/Users/patrick/go/bin/objcopy"
+      - "/Applications/SuperCollider.app/Contents/MacOS/objcopy"
+      - "/Users/patrick/.ghcup/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/Users/patrick/.local/bin/objcopy"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/objcopy"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/objcopy"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/objcopy"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/objcopy"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/objcopy"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/pkg/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/readelf"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/readelf"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/readelf"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/readelf"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/readelf"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/readelf"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/readelf"
+      - "/Users/patrick/.opam/default/bin/readelf"
+      - "/Users/patrick/.cabal/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/Users/patrick/.cargo/bin/readelf"
+      - "/Users/patrick/go/bin/readelf"
+      - "/Applications/SuperCollider.app/Contents/MacOS/readelf"
+      - "/Users/patrick/.ghcup/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/Users/patrick/.local/bin/readelf"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/readelf"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/readelf"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/readelf"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/readelf"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/readelf"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/dlltool"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/dlltool"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/dlltool"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/dlltool"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/dlltool"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/dlltool"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/dlltool"
+      - "/Users/patrick/.opam/default/bin/dlltool"
+      - "/Users/patrick/.cabal/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/Users/patrick/.cargo/bin/dlltool"
+      - "/Users/patrick/go/bin/dlltool"
+      - "/Applications/SuperCollider.app/Contents/MacOS/dlltool"
+      - "/Users/patrick/.ghcup/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/Users/patrick/.local/bin/dlltool"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/dlltool"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/dlltool"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/dlltool"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/dlltool"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/dlltool"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/pkg/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/addr2line"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/addr2line"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/addr2line"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/addr2line"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/addr2line"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/addr2line"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/addr2line"
+      - "/Users/patrick/.opam/default/bin/addr2line"
+      - "/Users/patrick/.cabal/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/Users/patrick/.cargo/bin/addr2line"
+      - "/Users/patrick/go/bin/addr2line"
+      - "/Applications/SuperCollider.app/Contents/MacOS/addr2line"
+      - "/Users/patrick/.ghcup/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/Users/patrick/.local/bin/addr2line"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/addr2line"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/addr2line"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/addr2line"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/addr2line"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/addr2line"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/tapi"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/tapi"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/tapi"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/tapi"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/tapi"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/tapi"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/tapi"
+      - "/Users/patrick/.opam/default/bin/tapi"
+      - "/Users/patrick/.cabal/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/Users/patrick/.cargo/bin/tapi"
+      - "/Users/patrick/go/bin/tapi"
+      - "/Applications/SuperCollider.app/Contents/MacOS/tapi"
+      - "/Users/patrick/.ghcup/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/Users/patrick/.local/bin/tapi"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/tapi"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/tapi"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/tapi"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/tapi"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/tapi"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/.hermes/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin/"
+      - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin/"
+      - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin/"
+      - "/Users/patrick/.opam/default/bin/"
+      - "/Users/patrick/.cabal/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/patrick/.cargo/bin/"
+      - "/Users/patrick/go/bin/"
+      - "/Applications/SuperCollider.app/Contents/MacOS/"
+      - "/Users/patrick/.ghcup/bin/"
+      - "/usr/local/sbin/"
+      - "/Users/patrick/.local/bin/"
+      - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS/"
+      - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64/"
+      - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin/"
+      - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64/"
+    searched_directories:
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/patrick/.hermes/hermes-agent/.hermes/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/21411395edb842f8aab67c63ddf3b31e/venv/bin"
+        - "/Users/patrick/.hermes/hermes-agent/node_modules/.bin"
+        - "/Users/patrick/.hermes/tools/node-26.7.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/agent-browser-0.26.0-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.7+20260901-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/installs/7c8acfa8a77d2f59/environments/6d3cf4196de64287bee637b76f35c532/venv/bin"
+        - "/Users/patrick/.opam/default/bin"
+        - "/Users/patrick/.cabal/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/patrick/.cargo/bin"
+        - "/Users/patrick/go/bin"
+        - "/Applications/SuperCollider.app/Contents/MacOS"
+        - "/Users/patrick/.ghcup/bin"
+        - "/usr/local/sbin"
+        - "/Users/patrick/.local/bin"
+        - "/Users/patrick/.hermes/tools/python-3.14.9+20261021-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/cua-driver-0.21.0-darwin-arm64/CuaDriver.app/Contents/MacOS"
+        - "/Users/patrick/.hermes/tools/ffmpeg-9.0.1-darwin-arm64"
+        - "/Users/patrick/.hermes/tools/npm-12.0.2-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/node-26.12.1-darwin-arm64/bin"
+        - "/Users/patrick/.hermes/tools/ripgrep-15.2.0-darwin-arm64"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl"
+      binary: "/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_04fdc/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_04fdc.dir/build.make CMakeFiles/cmTC_04fdc.dir/build
+        gmake[1]: Entering directory '/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl'
+        Building CXX object CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: arm64-apple-darwin27.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx18.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=27.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin27.2.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_04fdc
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04fdc.dir/link.txt --verbose=1
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: arm64-apple-darwin27.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 18.0.0 27.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_04fdc -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 13:21:42 Nov 10 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        	/usr/local/lib
+        Framework search paths:
+        ld: multiple errors: tapi error: malformed file
+        /Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libSystem.B.tbd:4:20: error: unknown architecture
+                           arm64e.x1-macos, arm64e.x1-maccatalyst ]
+                           ^~~~~~~~~~~~~~~
+         in '/Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libSystem.B.tbd'; tapi error: malformed file
+        /Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libc++.1.tbd:4:54: error: unknown architecture
+                           arm64e-macos, arm64e-maccatalyst, arm64e.x1-macos, arm64e.x1-maccatalyst ]
+                                                             ^~~~~~~~~~~~~~~
+         in '/Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libc++.1.tbd'
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_04fdc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_04fdc
+        gmake[1]: *** [CMakeFiles/cmTC_04fdc.dir/build.make:103: cmTC_04fdc] Error 1
+        gmake[1]: Leaving directory '/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-7UTDcl'
+        gmake: *** [Makefile:134: cmTC_04fdc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working CXX compiler: /usr/bin/c++"
+    directories:
+      source: "/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-Z3VQy0"
+      binary: "/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-Z3VQy0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-Z3VQy0'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_b5c24/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_b5c24.dir/build.make CMakeFiles/cmTC_b5c24.dir/build
+        gmake[1]: Entering directory '/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-Z3VQy0'
+        Building CXX object CMakeFiles/cmTC_b5c24.dir/testCXXCompiler.cxx.o
+        /usr/bin/c++   -arch arm64 -MD -MT CMakeFiles/cmTC_b5c24.dir/testCXXCompiler.cxx.o -MF CMakeFiles/cmTC_b5c24.dir/testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_b5c24.dir/testCXXCompiler.cxx.o -c /Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-Z3VQy0/testCXXCompiler.cxx
+        Linking CXX executable cmTC_b5c24
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c24.dir/link.txt --verbose=1
+        ld: multiple errors: tapi error: malformed file
+        /Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libSystem.B.tbd:4:20: error: unknown architecture
+                           arm64e.x1-macos, arm64e.x1-maccatalyst ]
+                           ^~~~~~~~~~~~~~~
+         in '/Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libSystem.B.tbd'; tapi error: malformed file
+        /Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libc++.1.tbd:4:54: error: unknown architecture
+                           arm64e-macos, arm64e-maccatalyst, arm64e.x1-macos, arm64e.x1-maccatalyst ]
+                                                             ^~~~~~~~~~~~~~~
+         in '/Library/Developer/CommandLineTools/SDKs/MacOSX27.2.sdk/usr/lib/libc++.1.tbd'
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b5c24.dir/testCXXCompiler.cxx.o -o cmTC_b5c24
+        gmake[1]: *** [CMakeFiles/cmTC_b5c24.dir/build.make:103: cmTC_b5c24] Error 1
+        gmake[1]: Leaving directory '/Users/patrick/workspace/superband/build/CMakeFiles/CMakeScratch/TryCompile-Z3VQy0'
+        gmake: *** [Makefile:134: cmTC_b5c24/fast] Error 2
+        
+      exitCode: 2
+...
