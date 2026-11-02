@@ -1,0 +1,12 @@
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+_deps/
+sc_headers/
+*.scx
+*.so
+*.dylib
+*.o
+.DS_Store
